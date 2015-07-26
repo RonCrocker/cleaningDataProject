@@ -46,11 +46,13 @@ This is on lines 96-99, and at the end the activityLabels data frame contains th
 
 This phase replaces the V1, ..., V561 currently as the column names of allData with the useful names we loaded in phase 2. The `setnames()` function is used because it's a little more efficient than just setting the names (via `names(allData)<-`); see line 105.
 
-This phase is on lines 101-108, and at the end of this phase we have both useful names for the columns and we have subsetted allData with the columns we want via:
+Now that the data has the correct names, we can use the `subset()` function to match the desired column names with these column names, ala
 
 ```[R]
 ourData <- subset(allData,select=ourFeatures$V2)
 ```
+
+This phase is on lines 101-108, and at the end our subset of interesting columns is available in `ourData`; it has 66 columns.
 
 ### 5 - Create the tidy data set
 
