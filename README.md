@@ -61,7 +61,9 @@ This phase involves 2 things:
 
 #### Adding in the subject and activity columns
 
-The data for both of these columns are hiding in the test and training directories in the raw data, in the files "test/subject_test.txt" and "test/y_test.txt" respectively (and similarly in the training data). The subjects are numbers in both the raw data and our tidy data, but the activity column is converted from a number (in the raw data) into a string from the activityLabels (from phase 3) in this step. This is done using the `match()` function.
+The data for both of these columns are hiding in the test and training directories in the raw data, in the files "test/subject_test.txt" and "test/y_test.txt" respectively (and similarly in the training data). We load these files using our helper function `readAndMerge()` that we defined earlier.
+
+The subjects are numbers in both the raw data and our tidy data, but the activity column is converted from a number (in the raw data) into a string from the activityLabels (from phase 3) in this step. This is done using the `match()` function.
 
 #### Summarize the samples into their means
 
