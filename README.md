@@ -27,7 +27,7 @@ There are 68 columns in the output data. The first two columns describe the expe
 Given that, the 68 columns are described as follows:
 
 Column Name | Value | Meaning
-============|=======|========
+------------|-------|--------
 Subject | Integer | Subject identifier (anonymous, but useful for distinguishing among subjects)
 Activity | String | Kind of activity the subject was performing during data acquisiition
 tBodyAcc-mean-X | Number | mean of the samples for mean body acceleration X dimension, time domain
