@@ -20,7 +20,7 @@ The project instructions say *The code should have a file run_analysis.R in the 
 
 ### Source Data
 
-This data is a summary of data avaliable at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+This data is a summary of data avaliable at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). That raw data can also be found at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 There are 68 columns in the output data. The first two columns describe the experiment context (who and what), the other 66 columns are the averages of the many samples of data in those categories. Details of the meaning of the samples can be found in the original data, with the file imported here in [features_info.txt](features_info.txt)
 
